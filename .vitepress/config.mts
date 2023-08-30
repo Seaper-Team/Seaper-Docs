@@ -8,6 +8,7 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
+  srcDir: './docs',
   themeConfig: {
     siteTitle: 'Seaper 文档',
     logo: '/public/icon.png',
