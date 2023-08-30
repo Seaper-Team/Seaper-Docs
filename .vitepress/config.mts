@@ -4,14 +4,14 @@ export default defineConfig({
   title: "Seaper",
   titleTemplate: ':title - Seaper 文档',
   description: "Seaper User Documents & APIDoc",
-  head: [['link', { rel: 'icon', href: 'public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
   srcDir: './docs',
   themeConfig: {
     siteTitle: 'Seaper 文档',
-    logo: '/public/icon.png',
+    logo: '/icon.png',
     nav: [
       { text: '主页', link: '/' },
       { text: '帮助文档', link: '/userdoc/' },

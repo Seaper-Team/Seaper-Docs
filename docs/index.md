@@ -7,7 +7,7 @@ hero:
   text: "使用帮助文档 & API"
   tagline: 👋 嗨！欢迎使用 Seaper！👋
   image:
-    src: public/logo.png
+    src: /logo.png
     alt: Seaper
   actions:
     - theme: brand
