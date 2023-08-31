@@ -11,10 +11,10 @@ hero:
     alt: Seaper
   actions:
     - theme: brand
-      text: 💻 用户使用文档
+      text: 🙋‍♂️ 用户使用文档
       link: /userdoc/
     - theme: alt
-      text: 🧑‍💻 API 文档
+      text: 💻 API 文档
       link: /apidoc/
 
 features:

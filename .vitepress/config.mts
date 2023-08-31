@@ -21,7 +21,7 @@ export default defineConfig({
     sidebar: {
       '/userdoc/': [
         {
-          text: '使用文档',
+          text: '🙋‍♂️ 使用文档',
           items: [
             { text: '🛌 首页', link: '/userdoc/' }
           ]
@@ -35,7 +35,30 @@ export default defineConfig({
             { 
               text: '🇨🇳 国际化', 
               items: [
-                { text: '初始化国际化', link: '/apidoc/lang/init' }
+                { text: '初始化国际化', link: '/apidoc/lang/init' },
+                { text: '获取前端语言', link: '/apidoc/lang/get' },
+                { text: '获取语言列表', link: '/apidoc/lang/list' }
+              ]
+            },
+            { 
+              text: '📊 仪表盘', 
+              items: [
+                { text: '系统信息', link: '/apidoc/overview/status' }
+              ]
+            },
+            { 
+              text: '🙋‍♂️ 用户操作', 
+              items: [
+                { text: '获取登录用户信息', link: '/apidoc/user/info' },
+                { text: '初始化用户系统', link: '/apidoc/user/init-post' },
+                { text: '是否初始化用户系统', link: '/apidoc/user/init-get' },
+                {
+                  text: '🔒 身份验证',
+                  items: [
+                    { text: '用户登录', link: '/apidoc/user/auth/login' },
+                    { text: '用户登出', link: '/apidoc/user/auth/logout' },
+                  ]
+                }
               ]
             }
           ]

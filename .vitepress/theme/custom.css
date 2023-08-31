@@ -12,6 +12,13 @@ html.dark {
     --method-box-des: rgb(182, 182, 182);
 }
 
+.vp-doc h2 {
+    margin: 16px 0 0;
+    border-bottom: 1px solid var(--vp-c-divider);
+    border-top: none;
+    padding-bottom: 24px;
+}
+
 .method-block {
     width: fit-content;
     border: 1px solid transparent;
@@ -37,15 +44,20 @@ html.dark {
     background-color: rgb(142 255 124 / 21%);
 }
 
-.method-block.post{
+.method-block.put{
     border-color: #325694;
     color: var(--method-box-text);
     background-color: rgba(124, 181, 255, 0.21);
 }
 
-.vp-doc h2 {
-    margin: 16px 0 0;
-    border-bottom: 1px solid var(--vp-c-divider);
-    border-top: none;
-    padding-bottom: 24px;
+.method-block.post{
+    border-color: #945932;
+    color: var(--method-box-text);
+    background-color: rgba(255, 179, 124, 0.21);
+}
+
+.method-block.del{
+    border-color: #943232;
+    color: var(--method-box-text);
+    background-color: rgba(255, 124, 124, 0.21);
 }
